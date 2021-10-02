@@ -1,0 +1,70 @@
+body{    
+    background: linear-gradient(#2b1055,#7597de);
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;       
+    color: white;
+}
+section#animacion{       
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+section img{    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    pointer-events: none;
+}
+section img#moon{
+     mix-blend-mode: screen;  
+     display:none;   
+}
+section img#mountains{
+    bottom: -100%;
+    top: initial;
+}
+section img#rocks{  /*Mountains front*/
+    bottom: -2000px;
+    top: initial;
+    z-index: 1000;
+}
+#texto{    
+    top: -100%;
+    text-align: center;
+    position: absolute;
+    color: white;    
+    font-size: 5vmin;
+    font-weight: 200;
+}
+#btn{    
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 50px;
+    background: white;
+    border-radius: 25px;
+    font-size: 1.4em;    
+    color: #2b1055;
+    z-index: 10000;
+    margin-top: 80px;    
+}
+#btn:hover{
+    background-color: #2b1055;
+    color:white;
+}
+#particles-js{
+    top: -100%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}

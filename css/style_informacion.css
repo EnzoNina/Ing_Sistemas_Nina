@@ -1,0 +1,46 @@
+body{         
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(67,44,111,1) 33%, rgba(28,43,89,1) 72%);  
+    min-height: 100vh;            
+    z-index: 99;
+}
+div{    
+    height: auto;
+    width: auto ;
+    color: white;    
+    z-index: 99;
+}
+button{
+    border: none;
+    outline: none;
+    width: 60%;
+    height: 30px;
+    background: #900C3F;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 15px;
+}
+.col-6{
+    padding: 10px;    
+}
+.container-informacion{    
+    height: auto;
+    width: auto ;    
+}
+#text{        
+    font-size: 3.5vh;
+    text-align: justify;
+}
+#titulo{
+    font-size: 8vh;
+}
+#developer-img{    
+    height: 60%;
+    width: auto;            
+}
+#particles-js{    
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;    
+}
