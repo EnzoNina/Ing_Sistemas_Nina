@@ -20,8 +20,6 @@
      <script src="..//libreria/particles.js-master/particles.min.js"></script>
      <!--Anime  animation-->
      <script src="/Pagina Ing. Sistemas/libreria/anime-master/lib/anime.min.js"></script>     
-     <!--Scroll-->
-     <script src="https://unpkg.com/scrollreveal"></script>
      <!--Bootstrap Js-->
      <script src="..//libreria/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
      <!--Jquery-->
@@ -29,57 +27,60 @@
      <!--Popper-->     
      <script src="..//libreria/popper.min.js"></script>
      <!--tippy-->
-     <link rel="stylesheet"href="https://unpkg.com/tippy.js@6/animations/scale.css"/>     
-     <link rel="stylesheet"href="https://unpkg.com/tippy.js@6/themes/gradient.css"/>   
+     <link rel="stylesheet"href="https://unpkg.com/tippy.js@6/animations/scale.css"/>          
+     <!--Aos Css-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!--Full page-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css">
+     <!--Titulo-->
     <title>Ing. de Sistemas e Informatica</title>
 </head>
 <body>
     <div id="particles-js"></div>    <!--Particles -->     
-    <!--Div principal-->                        
-    <div class="container">
+    <!--Div principal--> 
+    <main id="fullpage">
         <!--Informacion-->
-        <div class="d-flex justify-content-center align-items-center container-informacion" id="text"><!--Un poco de la presentacion-->
+        <section class="section">            
+        <div class="container"><!--Un poco de la presentacion-->
             <div class="row" style="text-align: center;">                
                 <h4 class="h1" id="titulo">¿Qué es la Ingeniería de sistemas?</h4>
                 <div class="col-sm-12 col-xl-6" style="padding-bottom: 20px;">
-                    <img src="..//imagenes/recursos/21-217137_developer.png" class="img-fluid" alt="developer" id="developer-img">
+                    imagen
                 </div>
                 <div class="col-sm-12 col-xl-6" id="text">
                     La Ingeniería de sistemas es una disciplina de la Ingeniería que se encarga de desarrollar, mejorar e implementar sistemas informáticos. Fuertemente vinculada con las matemáticas e informática, esta disciplina crea redes y sistemas al servicio de la organización que lo demande. 
                     La Ingeniería de sistemas trabaja con el fin de contribuir al desarrollo científico y tecnológico mediante la investigación continua de nuevas tecnologías y procedimientos. Gracias a su carácter multidisciplinario, esta carrera abre la puerta a una gran variedad de empresas u organizaciones, tanto públicas como privadas, y en especial en aquellas de gran tamaño.         
                 </div>                    
             </div>            
-        </div>                      
-    <!--Perfil-->
-    <section id="perfil">
-        <div class="container container-perfil">
-            <div class="row"><h4 id="titulo">Perfil del postulante</h4>
-                <div class="col" id="text">Aunque no lo creas, la carrera de Ingeniería de sistemas requiere de mucha creatividad. El estudiante debe desarrollar su capacidad de ser original, inventor y, sobretodo, innovador, ya que él es el encargado de desarrollar software o herramientas para la organización de las empresas.
-                    Por otra parte, aunque los ingenieros en sistemas suelen pasar horas frente a su principal herramienta de trabajo, el ordenador, deben tener gran capacidad de comunicación y facilidad para establecer relaciones, ya que normalmente trabajarán en equipo. Por lo tanto, deben ser solidarios y abiertos al diálogo; es falso que un ‘geek’ sea tímido y antisocial, ya que es necesario saber comunicarse con los demás para que estos entiendan las soluciones que vas a brindar. Se trata de personas con gran interés por el análisis, la resolución de problemas y la investigación que suelen ser responsables y organizadas al mismo tiempo que cuentan con una ética profesional sólida.                
-                    Además, deben tener habilidades lógicas y capacidad de análisis así como saber interpretar los requerimientos de los clientes, tener liderazgo, capacidad para poder trabajar en equipo y adaptarse a los cambios y al trabajo bajo presión. Precisamente por eso, deben ser muy disciplinados.                
-                    Otro punto importante es la capacidad interpretativa para analizar correctamente lo que se lee e interpretar correctamente el significado de los contenidos técnicos, tecnológicos y científico.                 
-                    Eso sí, sea cual sea el campo laboral al que te quieras dedicar, tendrás que dominar una lengua técnica de forma imprescindible, al menos, el idioma inglés; y, por supuesto, tendrás que demostrar que posees ética y valores morales. </div>
-            </div>        
-        </div>
-    </section>    
-    <!--A que se puede dedicar-->
-    <section id="dedicar">
-        <div class="container">
-            <div class="row">
-                <h4 id="titulo">¿Cómo es el campo laboral de un Ingeniero de sistemas? </h4>            
+        </div> 
+        </section>
+        <section class="section" id="perfil" >
+            <div class="container container-perfil" >
+                <div class="row"><h4 id="titulo">Perfil del postulante</h4>
+                    <div class="col" id="text">Aunque no lo creas, la carrera de Ingeniería de sistemas requiere de mucha creatividad. El estudiante debe desarrollar su capacidad de ser original, inventor y, sobretodo, innovador, ya que él es el encargado de desarrollar software o herramientas para la organización de las empresas.
+                        Por otra parte, aunque los ingenieros en sistemas suelen pasar horas frente a su principal herramienta de trabajo, el ordenador, deben tener gran capacidad de comunicación y facilidad para establecer relaciones, ya que normalmente trabajarán en equipo. Por lo tanto, deben ser solidarios y abiertos al diálogo; es falso que un ‘geek’ sea tímido y antisocial, ya que es necesario saber comunicarse con los demás para que estos entiendan las soluciones que vas a brindar. Se trata de personas con gran interés por el análisis, la resolución de problemas y la investigación que suelen ser responsables y organizadas al mismo tiempo que cuentan con una ética profesional sólida.                
+                        Además, deben tener habilidades lógicas y capacidad de análisis así como saber interpretar los requerimientos de los clientes, tener liderazgo, capacidad para poder trabajar en equipo y adaptarse a los cambios y al trabajo bajo presión. Precisamente por eso, deben ser muy disciplinados.                
+                        Otro punto importante es la capacidad interpretativa para analizar correctamente lo que se lee e interpretar correctamente el significado de los contenidos técnicos, tecnológicos y científico.                 
+                        Eso sí, sea cual sea el campo laboral al que te quieras dedicar, tendrás que dominar una lengua técnica de forma imprescindible, al menos, el idioma inglés; y, por supuesto, tendrás que demostrar que posees ética y valores morales. </div>
+                </div>        
             </div>
-            <div class="col" id="text">En la actualidad, el mercado busca perfiles profesionales con experiencia en normas de calidad en software, en administración de proyectos y en seguridad de la información. Por eso, los egresados que han superado la carrera de Ingeniería de sistemas están muy demandados en el campo laboral actual. Existen muchas salidas profesionales para ellos, por ejemplo: 
-                Consultor informático: se trata de un experto que asesora a empresas o personas para identificar oportunidades informáticas que les ayudan a superar problemas propios del campo en el que operan. 
-                Creador de sistemas informáticos: los egresados más creativos pueden encontrar empleo analizando, diseñando y programando sistemas informáticos para diversas organizaciones. 
-                Administrador de servicios informáticos: este perfil está muy demandado en el campo laboral de la Ingeniería de sistema. Se trata de un responsable de la provisión de servicios informáticos que sirvan de base para la labor de una empresa.  
-                Director de sistemas: se trata del responsable de todos los servicios informáticos de una compañía. 
-                Investigador: los ingenieros de sistemas también tienen su sitio en el campo de la investigación, generando teorías aplicadas en sistemas. 
-                Empresario por cuenta propia: los ingenieros más emprendedores siempre pueden lanzarse a crear una empresa propia en el sector de la tecnología. </div>
-        </div>
-    </section>    
-    <!--Malla Curricular-->
-    <section id="malla">
-        <h4 id="titulo">Malla Curricular</h4>
+        </section>
+        <section class="section" id="dedicar">
+            <div class="container">
+                <div class="row">
+                    <h4 id="titulo">¿Cómo es el campo laboral de un Ingeniero de sistemas? </h4>            
+                </div>
+                <div class="col" id="text">En la actualidad, el mercado busca perfiles profesionales con experiencia en normas de calidad en software, en administración de proyectos y en seguridad de la información. Por eso, los egresados que han superado la carrera de Ingeniería de sistemas están muy demandados en el campo laboral actual. Existen muchas salidas profesionales para ellos, por ejemplo: 
+                    Consultor informático: se trata de un experto que asesora a empresas o personas para identificar oportunidades informáticas que les ayudan a superar problemas propios del campo en el que operan. 
+                    Creador de sistemas informáticos: los egresados más creativos pueden encontrar empleo analizando, diseñando y programando sistemas informáticos para diversas organizaciones. 
+                    Administrador de servicios informáticos: este perfil está muy demandado en el campo laboral de la Ingeniería de sistema. Se trata de un responsable de la provisión de servicios informáticos que sirvan de base para la labor de una empresa.  
+                    Director de sistemas: se trata del responsable de todos los servicios informáticos de una compañía. 
+                    Investigador: los ingenieros de sistemas también tienen su sitio en el campo de la investigación, generando teorías aplicadas en sistemas. 
+                    Empresario por cuenta propia: los ingenieros más emprendedores siempre pueden lanzarse a crear una empresa propia en el sector de la tecnología. </div>
+            </div>
+        </section>
+        <section class="section">
+            <h4 id="titulo">Malla Curricular</h4>
         <div class="container">            
             <div class="row">
                 <div class="col-6 d-flex justify-content-center">
@@ -218,28 +219,40 @@
             </div>
         </div>
     </section>
-    </div>
-    
+    </main>                          
     <!--Scrips-->
     <script src="..//js/app.js"></script>    
-    <script src="..//js/scroll.js"></script>
+    <script src="..//libreria/aos.min.js"></script>   
+    <!--Full Page-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script>
     <!-- Popper.js first, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>    
     <!--Tippy Js-->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
-    <script src="https://unpkg.com/tippy.js@6"></script>
-    
+    <script src="https://unpkg.com/tippy.js@6"></script>    
     <!--ADA-->
-
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var seccionesPagina = new fullpage('#fullpage',{
+            autoScrolling: true, // Se activa el scroll.
+            fitToSection: false, // Acomoda el scroll automaticamente para que la seccion se muestre en pantalla.
+            fitToSectionDelay: 300, // Delay antes de acomodar la seccion automaticamente.
+            easing: 'easeInOutCubic', // Funcion de tiempo de la animacion.
+            scrollingSpeed: 700, // Velocidad del scroll. Valores: en milisegundos.
+            css3: true, // Si usara CSS3 o javascript.
+            easingcss3: 'ease-out', // Curva de velocidad del efecto.
+            loopBottom: false, // Regresa a la primera seccion siempre y cuando se ya haya llegado a la ultima sección y el ususario siga scrolleando.
+        });
+    </script>
     <script>
         tippy('button', {
             theme: 'light',
             placement:'top', 
-            animation: 'scale',         
-            theme: 'gradient',
-            followCursor:'true',
+            animation: 'scale',                                  
         content(reference) {
         const id = reference.getAttribute('data-template');
         const template = document.getElementById(id);
