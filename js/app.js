@@ -4,7 +4,7 @@ particlesJS(
     {
         "particles": {
           "number": {
-            "value": 160,
+            "value": 200,
             "density": {
               "enable": true,
               "value_area": 800
@@ -112,3 +112,4 @@ particlesJS(
         "retina_detect": true
       }
   );
+  

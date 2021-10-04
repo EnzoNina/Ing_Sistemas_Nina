@@ -1,21 +1,31 @@
-* {
+* {    
     box-sizing: border-box;
     margin: 0; 
-    padding: 0;
+    padding: 0;     
 }
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 0;
+    font-family: 'Arial Black';    
+    font-size: 8vh !important;
 }
-body{         
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(67,44,111,1) 33%, rgba(28,43,89,1) 72%);  
-    min-height: 100vh;            
-    z-index: 99;
+p{    
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vh;
 }
-div{    
-
-    color: white;    
+/*Clases full page*/
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span{
+    background:orange !important;
+}
+#fp-nav ul li a span{
+    background:aqua !important;
+}
+#fp-nav ul li .fp-tooltip {
+    color:#fff !important;    
+}
+/*Cuerpo*/
+main{
+    position: fixed;
     z-index: 99;
 }
 button{
@@ -31,20 +41,16 @@ button{
 .col-6{
     padding: 10px;    
 }
-#text{        
-    font-size: 3.5vh;
-    text-align: justify;
-}
-#titulo{
-    font-size: 8vh;
-}
-#developer-img{    
-    height: 60%;
-    width: auto;            
-}
+
 #particles-js{    
     height: 100vh;
     width: 100%;
     position: fixed;
-    z-index: -1;    
+    z-index: 1;    
+}
+#canvas-basic {    
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -100;          
 }
